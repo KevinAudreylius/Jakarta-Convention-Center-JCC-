@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/424f8a6cdf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="home.html"><img src="logoJCC.png" alt="logo"></a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="price.html">Price List</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="image-container">
+          <img src="contact.jpg" alt="Gambar">
+        </div>
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="    Enter your name">
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="     Enter your email">
+      
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="     Enter your phone number">
+      
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="    Put your message"></textarea>
+      
+            <label>Prefered Contact:</label>
+            <div id="radio-container">
+              <label>
+                <input type="radio" id="choose1" name="contact" value="phone">
+                Phone Number
+              </label>
+              <label>
+                <input type="radio" id="choose2" name="contact" value="email">
+                Email
+              </label>
+            </div>
+      
+            <button type="submit" id="contact-button">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+      <footer class="footer1">
+        <div class="footer-content1">
+            <div class="logo-contact1">
+                <img src="linkedin.png" class="linkin1">
+                <img src="instagram.png" class="ig1">
+                <img src="facebook.png" class="fb1">
+                <img src="youtube.png" class="yt1">
+            </div>
+            <img src="whitelogo.png" class="logofoot1">
+            <p>+62-292-18632</p>
+            <p>events@jockeysconventioncenter.com</p>
+            <p>Copyright &copy; 2023 Jockey's Convention Center. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
